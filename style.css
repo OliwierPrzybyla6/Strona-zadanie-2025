@@ -1,0 +1,34 @@
+body {
+    background-color: #555;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around; /* Równomierne rozmieszczenie linków */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background 0.3s;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
